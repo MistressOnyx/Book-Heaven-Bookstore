@@ -1,19 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Other page</title>
+    <title>Gallery</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="/C.S.S._Pages/Gallery.css" />
+    <script type="module" src="/J.S._Pages/Gallery.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/page2.html" aria-current="page">Other page</a>
-    </nav>
     <main>
-      <h1>My other page</h1>
+      <nav class="navbar"><ul>
+        <div id="navbar-logo">
+        <img src="Images/Client3_LogoPalette1_C7B65E.png" alt="" width="30px">
+        <p>Book Heaven Bookstore</p></div>
+        <li>Shop</li>
+        <li>Contact</li>
+        <li>About</li>
+        <li>News</li>
+      </ul></nav>
+
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <title>Gallery</title>
+        <style>
+          .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+          }
+      
+          .gallery-item {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 250px;
+            padding: 16px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+          }
+      
+          .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+          }
+      
+          .gallery-item h3 {
+            margin: 12px 0 8px;
+            font-size: 1.2em;
+          }
+      
+          .gallery-item p {
+            font-size: 0.95em;
+            color: #555;
+          }
+      
+          .gallery-item button {
+            margin-top: 10px;
+            padding: 8px 16px;
+            background-color: #0077cc;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+      
+          .gallery-item button:hover {
+            background-color: #005fa3;
+          }
+        </style>
+      </head>
+      <body>
+      
+        <h1 style="text-align:center;">Book Gallery</h1>
+        <div class="gallery">
+          <div class="gallery-item">
+            <img src="/H.T.M.L./Images/Client3_Book1.png" alt="Book Title 1">
+            <h3>Book Title 1</h3>
+            <p>A brief description of the book goes here. Engaging and informative.</p>
+            <button>Add to Cart</button>
+          </div>
+      
+          <div class="gallery-item">
+            <img src="/H.T.M.L./Images/Client3_Book2.png" alt="Book Title 2">
+            <h3>Book Title 2</h3>
+            <p>This is another great book with a compelling summary to entice readers.</p>
+            <button>Add to Cart</button>
+          </div>
+
+          <div class="gallery-item">
+            <img src="/H.T.M.L./Images/Client3_Book3.png" alt="Book Title 1">
+            <h3>Book Title 1</h3>
+            <p>A brief description of the book goes here. Engaging and informative.</p>
+            <button>Add to Cart</button>
+          </div>
+      
+          <div class="gallery-item">
+            <img src="/H.T.M.L./Images/Client3_Book1.png" alt="Book Title 2">
+            <h3>Book Title 2</h3>
+            <p>This is another great book with a compelling summary to entice readers.</p>
+            <button>Add to Cart</button>
+          </div>
+      
+
+          <div class="gallery-item">
+            <img src="/H.T.M.L./Images/Client3_Book2.png" alt="Book Title 1">
+            <h3>Book Title 1</h3>
+            <p>A brief description of the book goes here. Engaging and informative.</p>
+            <button>Add to Cart</button>
+          </div>
+      
+          <div class="gallery-item">
+            <img src="/H.T.M.L./Images/Client3_Book3.png" alt="Book Title 2">
+            <h3>Book Title 2</h3>
+            <p>This is another great book with a compelling summary to entice readers.</p>
+            <button>Add to Cart</button>
+          </div>
+      
+
+          <div class="gallery-item">
+            <img src="/H.T.M.L./Images/Client3_Book1.png" alt="Book Title 1">
+            <h3>Book Title 1</h3>
+            <p>A brief description of the book goes here. Engaging and informative.</p>
+            <button>Add to Cart</button>
+          </div>
+      
+          <div class="gallery-item">
+            <img src="/H.T.M.L./Images/Client3_Book2.png" alt="Book Title 2">
+            <h3>Book Title 2</h3>
+            <p>This is another great book with a compelling summary to entice readers.</p>
+            <button>Add to Cart</button>
+          </div>
+      
+          <div class="gallery-item">
+            <img src="/H.T.M.L./Images/Client3_Book3.png" alt="Book Title 2">
+            <h3>Book Title 2</h3>
+            <p>This is another great book with a compelling summary to entice readers.</p>
+            <button>Add to Cart</button>
+          </div>
+
+        </div>
+
+      <footer>
+        <div class="footer-content">
+          
+          <p>&copy; 2025 Your Bookstore Name. All rights reserved.</p>
+          <nav>
+            <a href="/about">About Us</a> |
+            <a href="/contact">Contact</a> |
+            <a href="/privacy">Privacy Policy</a> |
+            <a href="/terms">Terms of Service</a>
+          </nav>
+          <div class="social-links">
+            <a href="https://facebook.com/yourstore" target="_blank">Facebook</a>
+            <a href="https://instagram.com/yourstore" target="_blank">Instagram</a>
+            <a href="https://twitter.com/yourstore" target="_blank">Twitter</a>
+          </div>
+        </div>
+      </footer>
+      
     </main>
   </body>
 </html>
